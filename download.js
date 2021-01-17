@@ -40,7 +40,7 @@ var t = setInterval(function () {
 	speedButton.innerHTML = `
 	<span class="playback-controls__icon ng-isolate-scope" size="small">
 	`+tach+`</span>
-	<span class="tooltip tip-top-left" role="tooltip">
+	<span class="tooltip tip-top-right" role="tooltip">
       <span id="speed-tooltip" class="tooltip-content ng-scope">Playback 1x <small>(CollabDown)</small></span>
     </span>`;
 
